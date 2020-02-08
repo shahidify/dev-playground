@@ -1,0 +1,38 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #263854;
+  border: 5px solid #249ada;
+  padding: 20px;
+}
+h1,
+h2,
+p {
+  border: 2px solid orange;
+  padding: 10px;
+  line-height: 2em;
+}
+li {
+  border: 2px solid #d84709;
+}
+i,
+a,
+a:hover,
+a:visited {
+  color: #263854;
+  border: 2px solid #459476;
+  padding: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: no-wrap;
+  margin: 0 0 10px;
+}
+ul > li {
+  padding: 10px;
+  background-color: #eee;
+  margin: 0px 10px 10px 0px;
+  box-sizing: border-box;
+  list-style: none;
+}

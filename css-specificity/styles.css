@@ -1,0 +1,42 @@
+.title {
+  color: darkblue;
+}
+
+h1 {
+  color: green;
+}
+
+* {
+  color: darkred;
+}
+
+.sport {
+  width: 50%;
+  border: 1px solid darkgray;
+  margin: 10px;
+}
+
+.team {
+  width: 45%;
+  border: 1px solid darkgray;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.teams {
+  background-color: lightcyan;
+}
+
+.branding {
+  background-color: lightsalmon;
+  padding: 10px;
+}
+
+.team .branding {
+  background-color: darkkhaki;
+}
+
+.branding + .player {
+  color: blue;
+}

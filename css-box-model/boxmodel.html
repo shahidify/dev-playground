@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Box Model</title>
+    <style>
+      .somebox {
+        background-color: darkslategray;
+        color: #fff;
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        margin: 15px;
+        border: 20px solid lightslategrey;
+        display: inline-block;
+      }
+      .contentbox {
+        box-sizing: content-box;
+      }
+      .borderbox {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello Box Model!</h1>
+    <div class="somebox contentbox">
+      <span>I'm Boxed!</span>
+    </div>
+    <div class="somebox borderbox">
+      <span>I'm Boxed again!</span>
+    </div>
+  </body>
+</html>

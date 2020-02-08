@@ -1,0 +1,59 @@
+body {
+  background: #ff5f6d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color: #fff;
+}
+
+div p {
+  color: magenta;
+}
+button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: lightcoral;
+}
+.img {
+  margin: 10px;
+  border: 3px solid whitesmoke;
+}
+.para {
+  font-size: 32px;
+  color: #655ef0;
+  text-shadow: 2px 2px black;
+}
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  background-color: honeydew;
+}
+.item {
+  display: flex;
+  flex: 1;
+  border: 1px solid #802028;
+  background-color: #ff5f6d;
+  padding: 8px;
+  margin: 5px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+} */

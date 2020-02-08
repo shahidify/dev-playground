@@ -1,0 +1,15 @@
+.team {
+  width: 300px;
+  border: 15px solid darkgray;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  background-color: lightskyblue;
+}
+.borderbox {
+  box-sizing: border-box;
+}
+
+.contentbox {
+  box-sizing: content-box;
+}

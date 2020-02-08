@@ -1,0 +1,44 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  padding: 50px;
+  margin: 50px;
+  border: 5px solid black;
+  font-family: Arial, sans-serif;
+  position: relative;
+  height: 500px;
+}
+.box {
+  color: #fff;
+  padding: 20px;
+  width: 25%;
+  display: inline-block;
+}
+.box-one {
+  background: #2b4482;
+}
+.box-two {
+  background: #964137;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.box-three {
+  background: #87780b;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.ad {
+  background-color: darkslateblue;
+  color: lightcyan;
+  padding: 5px;
+  margin: 0px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}

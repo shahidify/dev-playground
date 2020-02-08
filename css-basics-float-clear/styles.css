@@ -1,0 +1,27 @@
+.container {
+  padding: 20px;
+  margin: 20px;
+  border: 5px solid black;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  height: 500px;
+}
+.box {
+  padding: 20px;
+}
+.img-one {
+  border-radius: 50%;
+  margin-right: 10px;
+  float: left;
+}
+.img-two {
+  border-radius: 50%;
+  float: right;
+}
+.caption {
+  clear: left;
+}
+.img-container {
+  float: left;
+  margin: 5px;
+}

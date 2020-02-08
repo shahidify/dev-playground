@@ -1,0 +1,32 @@
+*,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 2px 2px #00000022;
+  background-color: darkslategray;
+  border: 1px solid #fff;
+}
+
+.container {
+  border: 5px solid rgb(202, 173, 98);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: baseline;
+}
+.box3 {
+  font-size: 60px;
+}
+.box4 {
+  font-size: 120px;
+}
+.box5 {
+  font-size: 20px;
+}

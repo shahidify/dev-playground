@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sample</title>
+  </head>
+  <body style="background-color: lightcyan;">
+    <h1 style="color: #ba1ec3; background-color: gold;">
+      Student Registration!
+    </h1>
+    <div style="border: 1px solid darkgray; margin: 10px; padding: 10px;">
+      <form
+        action="mailto:contact@shahidify.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="fname">First name: </label>
+        <input type="text" name="fname" id="fname" /> <br />
+        <label for="lname">Last name: </label>
+        <input type="text" name="lname" id="lname" /> <br />
+        <label for="">Gender: </label>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+        <br />
+        <label for="">Date of birth:</label>
+        <input type="date" name="dob" id="dob" /> <br />
+
+        <label for="">Course: </label>
+        <input type="checkbox" name="course1" id="course1" />
+        <label for="course1">Python</label>
+        <input type="checkbox" name="course2" id="course2" />
+        <label for="course2">Web Development</label>
+        <input type="checkbox" name="course3" id="course3" />
+        <label for="course3">JavaScript Advance</label>
+        <input type="checkbox" name="course4" id="course4" />
+        <label for="course4">Django</label>
+        <br />
+        <label for="city">City:</label>
+        <select name="city" id="city">
+          <option value="Bhopal">Bhopal</option>
+          <option value="Indore">Indore</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Pune">Pune</option>
+          <option value="Mumbai">Mumbai</option>
+        </select>
+        <br />
+        <input type="submit" value="SignUp" />
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+  </body>
+</html>
