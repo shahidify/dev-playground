@@ -5,25 +5,18 @@ const resetButton = document.querySelector('#reset');
 const mins = document.querySelector('.mins');
 const secs = document.querySelector('.secs');
 
+let intervalId;
+let timerTime = 0;
+
 stopButton.style.display = 'none';
 
-let intervalId;
-let timerTime = 00;
-let isTimerRunning = false;
-
-// listen to click
 function startTimer() {
-  if (isTimerRunning) return;
-
-  isTimerRunning = true;
   intervalId = setInterval(incrementTimer, 1000);
-  stopButton.style.display = 'inline-block';
+
   startButton.style.display = 'none';
+  stopButton.style.display = 'inline-block';
 }
 function stopTimer() {
-  if (!isTimerRunning) return;
-
-  isTimerRunning = false;
   clearInterval(intervalId);
 
   stopButton.style.display = 'none';
@@ -40,14 +33,14 @@ function incrementTimer() {
   timerTime++;
 
   const numberOfMins = Math.floor(timerTime / 60);
-  const numberOfSecs = timerTime % 60;
+  const numberOfSec = timerTime % 60;
 
-  secs.innerText = zeroPadding(numberOfSecs);
+  secs.innerText = zeroPadding(numberOfSec);
   mins.innerText = zeroPadding(numberOfMins);
 }
 
 function zeroPadding(number) {
-  return number < 10 ? '0' + number : number;
+  return number < 10 ? `0${number}` : `${number}`;
 }
 
 startButton.addEventListener('click', startTimer);
