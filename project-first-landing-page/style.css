@@ -19,7 +19,7 @@ body {
   padding: 100px 50px;
 }
 .row {
-  display: inline-block;
+  display: block;
 }
 .article {
   padding: 0 5px;
