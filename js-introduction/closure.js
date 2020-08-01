@@ -62,6 +62,8 @@ function cricBookGame() {
   let total = 0;
   let turns = 0;
   return function(score) {
+    // adding condition to work only for Even (2,4 and 6)
+    if(![0,2,4,6].includes(score)) { return "Wrong Move. Try again"; }
     turns++;
     if (turns > 5) {
       return `FINAL SCORE is ${total}`;
